@@ -29,11 +29,53 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            Bird parrot = new Bird
+            {
+                Name = "Parrot",
+                Age = 2,
+                Weight = 1.5,
+                Habitat = "Tropical Rainforest",
+                WingSpan = 0.5,
+                CanFly = true,
+                BeakType = "Curved",
+                FeatherColor = "Green"
+            };
+            Console.WriteLine("Bird Info:");
+            Console.WriteLine($"Name: {parrot.Name}");
+            Console.WriteLine($"Age: {parrot.Age}");
+            Console.WriteLine($"Weight: {parrot.Weight} kg");
+            Console.WriteLine($"Habitat: {parrot.Habitat}");
+            Console.WriteLine($"Wing Span: {parrot.WingSpan} meters");
+            Console.WriteLine($"Can Fly: {parrot.CanFly}");
+            Console.WriteLine($"Beak Type: {parrot.BeakType}");
+            Console.WriteLine($"Feather Color: {parrot.FeatherColor}");
+            Console.WriteLine();
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            Reptile snake = new Reptile
+            {
+                Name = "Snake",
+                Age = 4,
+                Weight = 2.3,
+                Habitat = "Desert",
+                IsVenomous = true,
+                ScaleType = "Smooth AF",
+                ReproductionMethod = "Eggs",
+                Length = 1.2
+            };
+            Console.WriteLine("Reptile Info:");
+            Console.WriteLine($"Name: {snake.Name}");
+            Console.WriteLine($"Age: {snake.Age}");
+            Console.WriteLine($"Weight: {snake.Weight} kg");
+            Console.WriteLine($"Habitat: {snake.Habitat}");
+            Console.WriteLine($"Is Venomous: {snake.IsVenomous}");
+            Console.WriteLine($"Scale Type: {snake.ScaleType}");
+            Console.WriteLine($"Reproduction Method: {snake.ReproductionMethod}");
+            Console.WriteLine($"Length: {snake.Length} meters");
         }
     }
 }
